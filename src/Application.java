@@ -20,7 +20,6 @@ public class Application {
 
     // main
     // сигнатура
-    // todo: finish this method
     // IO - Input Output
     public static void main(String[] args) throws IOException {
         Size size = Size.XXL;
@@ -237,7 +236,7 @@ public class Application {
         while (fileReader.hasNextLine()) {
             System.out.println(fileReader.nextLine());
         }
-        
+
 //        System.out.println(sentence);
     }
 }
