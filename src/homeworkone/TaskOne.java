@@ -1,0 +1,7 @@
+package homeworkone;
+
+public class TaskOne {
+    public static void main(String[] args) {
+        //
+    }
+}

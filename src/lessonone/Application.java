@@ -1,3 +1,5 @@
+package lessonone;
+
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.Scanner;
@@ -22,7 +24,7 @@ public class Application {
     // сигнатура
     // IO - Input Output
     public static void main(String[] args) throws IOException {
-        Size size = Size.XXL;
+//        Size size = Size.XXL;
 
         // javac - Java compiler
         // тіло функція
@@ -216,7 +218,7 @@ public class Application {
         // s - string
         String formattedString = String.format("Hello, I'm %d years old, and my name is %s", age, "Nastya");
         System.out.println(formattedString);
-        // API - Application Programming Interface
+        // API - lessonone.Application Programming Interface
 
         StringBuilder stringBuilder = new StringBuilder();
         String strThree = stringBuilder.append("Hello ")
