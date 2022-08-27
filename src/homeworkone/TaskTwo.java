@@ -18,6 +18,6 @@ public class TaskTwo {
         char[] symbols = s.toCharArray();
         int[] nums = new int[] {4,5 ,6, 7, 3, 4};
 
-        //todo: finish this
     }
 }
+//TODO: finish this
