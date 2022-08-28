@@ -1,18 +1,25 @@
 package lessonthree;
 
 public class Person {
-    public static int objectCount = 0;
+    public static int objectCount;
     public int count = 0;
-    private String name;
+    private String name = "";
     private int age;
 
+    // блок ініціалізації
+    {
+        count = 5;
+
+    }
+
+    static {
+        objectCount = 10;
+    }
+
     public Person() {
-        objectCount++;
-        count++;
     }
     public Person(String name, int age) {
         objectCount++;
-        count++;
         this.name = name;
         this.age = age;
     }

@@ -7,7 +7,7 @@ package lessonthree;
 public class Professor extends Person {
     // поля
     private String subject; // предмет
-
+        // instance variables
     public Professor(){
 
     }
